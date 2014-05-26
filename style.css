@@ -23,15 +23,22 @@ a {
     font-size: 48px;
 }
 
+div.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -268px 0 0 -695px;
+}
+
 .hidden {
     opacity: 0.001;
 }
 
 #sun {
-    margin-left: -300px;
     position: absolute;
     height: 130px;
-    margin-top: 35px;
+    top: 40px;
+    left: 400px;
 }
 
 .circle {
