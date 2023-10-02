@@ -85,8 +85,8 @@ body {
 }
 
 .bg {
-    background: -webkit-linear-gradient(top, rgb(179, 231, 255), white);
-    background: -moz-linear-gradient(top, rgb(179, 231, 255), white);
+    background: -webkit-linear-gradient( bottom, rgb(255, 255, 255), rgb(197, 245, 251));
+    background: -moz-linear-gradient(top, rgb(255, 255, 255), rgb(166, 236, 247));
     position: absolute;
     width: 720px;
     height: 340px;
@@ -98,4 +98,13 @@ body {
 
 .bordered {
     border: 3px solid rgb(0, 59, 122);
+}
+body{
+    background: linear-gradient(to right , black 0%, gray 50%, black 100%);
+}
+body:hover{
+    background: linear-gradient(to right , rgb(13, 5, 16) 0%, rgb(13, 15, 32) 50%, rgb(43, 43, 43) 100%);
+}
+.bg:hover{
+    background: linear-gradient(to right , aqua 0%, rgb(181, 255, 254) 50%, rgb(144, 237, 247) 100%);
 }
