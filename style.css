@@ -24,12 +24,16 @@ a {
 }
 
 div.main {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: -268px 0 0 -695px;
+  position: absolute;
+  margin: auto;
+  width: 50%;
+  padding: 50px;
 }
 
+.btn{
+margin-bottom: 10px;
+margin-top:10px;
+}
 .hidden {
     opacity: 0.001;
 }
@@ -37,8 +41,8 @@ div.main {
 #sun {
     position: absolute;
     height: 130px;
-    top: 40px;
-    left: 400px;
+    top: 30px;
+    left: 500px;
 }
 
 .circle {
