@@ -1,6 +1,6 @@
 {
   "name": "secondary-rainbow-simulation-app",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simulation of secondary rainbow phenomenon created in HTML, CSS and JavaScript.",
   "main": "lib/index.js",
   "scripts": {
@@ -31,6 +31,8 @@
     "menu/",
     "cli.js",
     "index.js",
+    "index.d.ts",
+    "package-lock.json",
     "bloggify.js",
     "bloggify.json",
     "bloggify/"
